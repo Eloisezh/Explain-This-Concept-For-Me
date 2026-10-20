@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "AI 简单词汇解释器",
+  "version": "1.0",
+  "description": "选中网页上的短语或句子，用简单的词汇为你解释。",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
